@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     42942,       1233]
-NotebookOptionsPosition[     41748,       1191]
-NotebookOutlinePosition[     42107,       1207]
-CellTagsIndexPosition[     42064,       1204]
+NotebookDataLength[     43264,       1240]
+NotebookOptionsPosition[     42038,       1197]
+NotebookOutlinePosition[     42392,       1213]
+CellTagsIndexPosition[     42349,       1210]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -54,6 +54,12 @@ Cell[BoxData[{
    RowBox[{"SymbolOfCovD", "->", 
     RowBox[{"{", 
      RowBox[{"\"\<%\>\"", ",", "\"\<\[Del]\>\""}], "}"}]}]}], "]"}]}], "Input"],
+
+Cell[BoxData[{
+ RowBox[{"DefConstantSymbol", "[", "l", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"DefConstantSymbol", "[", "m", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"DefConstantSymbol", "[", "\[Omega]", "]"}]}], "Input",
+ CellChangeTimes->{{3.718951796724559*^9, 3.718951807422063*^9}}],
 
 Cell[BoxData[
  RowBox[{"(*", 
@@ -1191,8 +1197,8 @@ Cell[BoxData[
 },
 WindowSize->{808, 681},
 WindowMargins->{{12, Automatic}, {Automatic, 24}},
-FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
-21, 2016)",
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -1209,31 +1215,32 @@ Notebook[{
 Cell[558, 20, 118, 2, 32, "Input"],
 Cell[679, 24, 340, 8, 32, "Input"],
 Cell[1022, 34, 924, 21, 117, "Input"],
-Cell[1949, 57, 241, 7, 32, "Input"],
-Cell[2193, 66, 1035, 33, 83, "Input"],
-Cell[3231, 101, 2196, 65, 121, "Input"],
-Cell[5430, 168, 6689, 173, 283, "Input"],
-Cell[12122, 343, 605, 19, 58, "Input"],
-Cell[12730, 364, 3178, 92, 136, "Input"],
-Cell[15911, 458, 12580, 321, 439, "Input"],
-Cell[28494, 781, 1126, 36, 92, "Input"],
-Cell[29623, 819, 1692, 51, 92, "Input"],
-Cell[31318, 872, 190, 5, 32, "Input"],
+Cell[1949, 57, 287, 4, 75, "Input"],
+Cell[2239, 63, 241, 7, 32, "Input"],
+Cell[2483, 72, 1035, 33, 83, "Input"],
+Cell[3521, 107, 2196, 65, 121, "Input"],
+Cell[5720, 174, 6689, 173, 283, "Input"],
+Cell[12412, 349, 605, 19, 58, "Input"],
+Cell[13020, 370, 3178, 92, 136, "Input"],
+Cell[16201, 464, 12580, 321, 439, "Input"],
+Cell[28784, 787, 1126, 36, 92, "Input"],
+Cell[29913, 825, 1692, 51, 92, "Input"],
+Cell[31608, 878, 190, 5, 32, "Input"],
 Cell[CellGroupData[{
-Cell[31533, 881, 140, 2, 32, "Input"],
-Cell[31676, 885, 500, 10, 24, "Print"]
+Cell[31823, 887, 140, 2, 32, "Input"],
+Cell[31966, 891, 500, 10, 24, "Print"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[32213, 900, 142, 2, 32, "Input"],
-Cell[32358, 904, 508, 11, 24, "Print"]
+Cell[32503, 906, 142, 2, 32, "Input"],
+Cell[32648, 910, 508, 11, 24, "Print"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[32903, 920, 5620, 155, 327, "Input"],
-Cell[38526, 1077, 1710, 57, 53, "Output"]
+Cell[33193, 926, 5620, 155, 327, "Input"],
+Cell[38816, 1083, 1710, 57, 57, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[40273, 1139, 259, 7, 32, "Input"],
-Cell[40535, 1148, 1197, 40, 50, "Output"]
+Cell[40563, 1145, 259, 7, 32, "Input"],
+Cell[40825, 1154, 1197, 40, 54, "Output"]
 }, Open  ]]
 }
 ]
