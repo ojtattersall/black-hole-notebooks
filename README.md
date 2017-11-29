@@ -1,4 +1,4 @@
-# black-hole-paper
+# ReadMe for arXiv 1711.01992
 
 The mathematica notebooks offered here make use of the xAct suite of pacakges http://www.xact.es/ 
 
